@@ -1,0 +1,147 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc }
+\usepackage{graphicx}
+\usetheme{Copenhagen}
+%\usecolortheme{beaver}
+
+\setbeamertemplate{navigation symbols}{}
+\title{MOVIE RECOMMENDATION SYSTEM}
+\author{\textbf {P.RUPA : 21B01A05E5 : CSE}
+        \\[1\baselineskip]
+        \textbf{SK.RIZWANA : 21B01A05G8 : CSE}
+        \\[1\baselineskip]
+        \textbf{T.DEEPIKA : 21B01A05I1 : CSE}
+        \\[1\baselineskip]
+        \textbf{ V.CHETANA SRI : 21B01A05J3 : CSE}
+        \\[1\baselineskip]
+      }
+        }
+\date{February 9,2024}
+
+\begin{document}
+\maketitle
+\begin{frame}
+\frametitle{\huge \textbf{ Introduction}}
+
+\Large Discovering movies aligned with our unique interests can be a difficult task. Navigating through countless options is time-consuming. Our ML project tackles these challenges. By using machine learning algorithms, we can analyze individual preferences, and provide recommendations that resonate with the user's cinematic taste. 
+
+\end{frame}
+
+\begin{frame}
+    \frametitle{\huge \textbf{Movies based on genre}}
+    \begin{figure}
+\includegraphics[width=0.9\textwidth,height=0.7\textheight]{iron.jpg}
+\caption{projects}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+    \frametitle{\huge \textbf{Horror}}
+    \begin{figure}
+\includegraphics[width=0.9\textwidth,height=0.7\textheight]{ho.jpg}
+\caption{projects}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{\huge \textbf{Anime}}
+    \begin{figure}
+\includegraphics[width=0.9\textwidth,height=0.7\textheight]{anim.jpg}
+\caption{projects}
+\end{figure}
+\end{frame}
+\begin{frame}
+    \frametitle{\huge \textbf{Approach}}
+    \Large The core focus lies in harnessing the power of predictive modeling, enabling us to discern and understand user preferences comprehensively. By leveraging these algorithms, we aim to revolutionize the movie recommendation landscape, presenting users with precisely tailored suggestions that align seamlessly with their unique tastes. This meticulous approach ensures a sophisticated and personalized cinematic experience, eliminating the challenges associated with traditional, broad-stroke recommendations.
+\end{frame}
+\begin{frame}
+    \frametitle{\huge \textbf{Dataset Description}}
+    \Large Columns: id, overview ,title, genre
+\\[1\baselineskip]
+     \Large Combined overview and genre to obtain tag colunm
+\end{frame}
+
+\begin{frame}
+    \frametitle{\huge \textbf{Learnings}}
+ \begin{itemize}
+     \item {\textbf{\Large {Libraries used}}}
+ \end{itemize}
+ \\[1\baselineskip]
+        \Large{ sklearn, numpy, pandas ,pickle  }
+\\[1\baselineskip]  \Large{ streamlit(http://localhost:8501)  }
+\item \Large{loading data set using kaggle API , resolving errors, finding suitable algorithm , colloborating front end and back end using streamlit.}
+\\[1\baselineskip]
+\end{frame}
+
+\begin{frame}
+\frametitle{\huge \textbf{Challenges}}
+\begin{itemize}
+\item \\[\baselineskip] \Large{ We felt difficult in writing the machine learning code and searching for appropriate technique  for our project ,connecting the application with our Python code .But finally, we cracked the logic and finished the code with in the  time.}
+\end{itemize}
+\end{frame}
+% Slide 3: Model Selection
+\begin{frame}{Technique implementation}
+  \begin{itemize}
+    \item Choosing count vectorization for a content-based recommendation system ,Count vectorization is a straightforward technique that converts text documents into vectors of term counts.
+
+    \item Simplicity and Efficiency
+    \item Count vectorization can handle noisy text data reasonably well. 
+    \item  Count vectors can be easily compared using similarity measures such as cosine similarity or Euclidean distance. This makes it straightforward to find similar documents or items for recommendation purposes.
+
+    \item Count vectorization produces sparse vectors where each dimension corresponds to a unique term in the vocabulary.
+       
+  \end{itemize}
+\end{frame}
+
+
+
+
+
+\begin{frame}
+    \frametitle{\huge \textbf{Demo/Screenshots}}
+    \begin{figure}
+\includegraphics[width=0.9\textwidth,height=0.7\textheight]{Screenshot (998).png}
+\caption{projects}
+\label{fig:enter-label}
+\end{figure}
+\end{frame}
+\begin{frame}
+    \frametitle{\huge \textbf{Demo/Screenshots}}
+    \begin{figure}
+\includegraphics[width=0.9\textwidth,height=0.7\textheight]{Screenshot (999).png}
+\caption{projects}
+\end{figure}
+\end{frame}
+\begin{frame}
+    \frametitle{\huge \textbf{Demo/Screenshots}}
+    \begin{figure}
+\includegraphics[width=0.9\textwidth,height=0.7\textheight]{3.jpg}
+\caption{projects}
+\end{figure}
+\end{frame}
+\begin{frame}
+    \frametitle{\huge \textbf{Demo/Screenshots}}
+    \begin{figure}
+\includegraphics[width=0.9\textwidth,height=0.7\textheight]{Screenshot (104).png}
+\caption{projects}
+\label{fig:enter-label}
+\end{figure}
+\end{frame}
+% Slide 6: Conclusion
+\begin{frame}{Conclusion}
+  \begin{itemize}
+    \item user can easily know the movies he can watch on his interest.
+    \item like traditional methods there will not be any waste of time in searching for reviews on some other sites.
+    \item Machine learning models make the work of user easy and interactive.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+    \huge \textbf{Thank You}
+    \end{center}
+\end{frame}
+
+
+\end{document}
